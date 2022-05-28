@@ -14,11 +14,19 @@ const GroupList = ({ groupName, userList, index }) => {
               {groupName} - <span className="groupCount">{userList?.length}</span>
             </div>
             <Droppable droppableId={groupName} type="USER">
-              {(dropProvided) => {
+              {(dropProvided, dropSnapshot) => {
+                  let backgroundColoVal = "#e8ebfb"
+                  if (dropSnapshot.isDraggingOver) {
+                      backgroundColoVal = "#a8abcc"
+                  }
+                  if (Boolean(dropSnapshot.draggingFromThisWith)) {
+                    backgroundColoVal = "#c9cadc"
+                  }
                 return (
                   <div
                     {...dropProvided.droppableProps}
                     ref={dropProvided.innerRef}
+                    style={{backgroundColor: backgroundColoVal}}
                     className="userCardLayout"
                   >
                     {userList?.map((userObj, userIndex) => {
