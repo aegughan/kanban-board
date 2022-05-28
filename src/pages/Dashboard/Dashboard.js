@@ -11,8 +11,8 @@ const Dashboard = ({ userName }) => {
   useEffect(() => {
     const updatedUserData = userDataDuplicate.GroupUserList.map((obj) => {
       const objVal = Object.entries(obj);
-      const x = objVal[0][1].filter((obj) => {
-        return obj.Name.toLocaleLowerCase().startsWith(
+      const x = objVal[0][1].filter((userObj) => {
+        return userObj.Name.toLocaleLowerCase().startsWith(
           userName?.toLocaleLowerCase()
         );
       });
@@ -26,11 +26,10 @@ const Dashboard = ({ userName }) => {
     const { source, destination } = result;
     let userDataObj = { ...userDataDuplicate };
     if (result.type === "COLUMN") {
-      const sourceIndex = source.index;
       const destinationIndex = destination.index;
-      if (sourceIndex !== destination.index) {
-        const sourceData = { ...userDataObj.GroupUserList[sourceIndex] };
-        userDataObj.GroupUserList.splice(sourceIndex, 1);
+      if (source.index !== destination.index) {
+        const sourceData = { ...userDataObj.GroupUserList[source.index] };
+        userDataObj.GroupUserList.splice(source.index, 1);
         userDataObj.GroupUserList.splice(destinationIndex, 0, sourceData);
         setUserData(userDataObj);
         setUserDataDuplicate(userDataObj);
