@@ -71,10 +71,10 @@ const Dashboard = ({ userName }) => {
     setUserDataDuplicate(userDataObj);
   };
   return (
-    <div className="dashboard">
-      <div className="filterDiv">
+    <div className="dashboard pad_10">
+      <div className="pad_10">
         <div>
-          <span>All candidates</span> - Active (31){" "}
+          <span className="font_weight_600">All candidates</span> - Active (31){" "}
         </div>
       </div>
       <DragDropContext onDragEnd={onDragEnd}>

@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = ({ userName, onChangeHandler }) => {
   return (
     <div className="header">
-      <div className="leftHeader">
+      <div className="leftHeader font_weight_600">
         iamneo.ai Talent Center
       </div>
       <div className="rightHeader">

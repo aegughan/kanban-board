@@ -1,13 +1,6 @@
 .dashboard {
   min-height: 86vh;
   background: #e8ebfb;
-  padding: 10px;
-}
-.filterDiv {
-  padding: 10px;
-}
-.filterDiv span {
-    font-weight: 600;
 }
 .dropcontext {
   display: flex;
@@ -16,12 +9,10 @@
 .groupColumn {
   flex-grow: 1;
   width: 20%;
-  padding: 10px;
 }
 .groupName {
   padding: 10px 10px;
   background: #fff;
-  font-weight: 600;
   margin-bottom: 15px;
   border-left: 4px solid grey;
   border-radius: 4px;
@@ -41,7 +32,6 @@
 .groupName_5 {
   border-left: 4px solid palevioletred;
 }
-
 .userCardLayout {
   min-height: 40vh;
 }

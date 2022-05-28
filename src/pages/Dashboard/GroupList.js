@@ -4,12 +4,12 @@ import UserCard from "./UserCard";
 const GroupList = ({ groupName, userList, index }) => {
   return (
     <Draggable key={groupName} draggableId={groupName} index={index}>
-      {(provided, snapshot) => {
+      {(provided) => {
         return (
-          <div ref={provided.innerRef} {...provided.draggableProps} className="groupColumn">
+          <div ref={provided.innerRef} {...provided.draggableProps} className="groupColumn pad_10">
             <div
               {...provided.dragHandleProps}
-              className={`groupName groupName_${index + 1}`}
+              className={`groupName font_weight_600 groupName_${index + 1}`}
             >
               {groupName} - <span className="groupCount">{userList?.length}</span>
             </div>

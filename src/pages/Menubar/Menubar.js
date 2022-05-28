@@ -11,19 +11,19 @@ import "./Menubar.css";
 const Menubar = () => {
   return (
     <div className="menubar">
-      <div className="iconDiv">
+      <div className="iconDiv pad_10">
         <FontAwesomeIcon icon={faHome} />
       </div>
-      <div className="iconDiv">
+      <div className="iconDiv pad_10">
         <FontAwesomeIcon icon={faSuitcase} />
       </div>
-      <div className="iconDiv active">
+      <div className="iconDiv active pad_10">
         <FontAwesomeIcon icon={faPeopleGroup} />
       </div>
-      <div className="iconDiv">
+      <div className="iconDiv pad_10">
         <FontAwesomeIcon icon={faBook} />
       </div>
-      <div className="iconDiv bottomFixed">
+      <div className="iconDiv bottomFixed pad_10">
         <FontAwesomeIcon icon={faQuestionCircle} />
       </div>
     </div>
