@@ -1,0 +1,89 @@
+.dashboard {
+  min-height: 86vh;
+  background: #e8ebfb;
+  padding: 10px;
+}
+.filterDiv {
+  padding: 10px;
+}
+.filterDiv span {
+    font-weight: 600;
+}
+.dropcontext {
+  display: flex;
+  justify-content: space-between;
+}
+.groupColumn {
+  flex-grow: 1;
+  width: 20%;
+  padding: 10px;
+}
+.groupName {
+  padding: 10px 10px;
+  background: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-left: 4px solid grey;
+  border-radius: 4px;
+}
+.groupCount {
+  color: grey;
+}
+.groupName_2 {
+  border-left: 4px solid #d3d346;
+}
+.groupName_3 {
+  border-left: 4px solid #d3d346;
+}
+.groupName_4 {
+  border-left: 4px solid palevioletred;
+}
+.groupName_5 {
+  border-left: 4px solid palevioletred;
+}
+
+.userCardLayout {
+  min-height: 40vh;
+}
+.userCard {
+  margin-bottom: 12px;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px #d3d3d3;
+}
+.companyName {
+  font-size: 12px;
+}
+.userDetails {
+  padding: 5px 10px 25px;
+}
+.userRating {
+  padding: 5px 10px;
+  background-color: #f3f4f9;
+  display: flex;
+  align-items: center;
+}
+.userRating .starRating {
+  font-size: 20px;
+  flex-grow: 1;
+}
+.profileIcon {
+  display: flex;
+  text-align: right;
+}
+.userProfileIcon {
+  height: 25px;
+  width: 25px;
+  background-color: #d3d346;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px;
+}
+.verticalIcon {
+  text-align: right;
+}
+.verticalIcon::after {
+  content: "\2807";
+  font-size: 20px;
+}

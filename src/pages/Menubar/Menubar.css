@@ -1,0 +1,21 @@
+.menubar {
+    width: 50px;
+    min-height: 100vh;
+    background: #181d54;
+    position: fixed;
+}
+.iconDiv {
+    color: lightgrey;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.iconDiv.active {
+    background-color: #e8ebfb;
+    border-radius: 3px;
+}
+.iconDiv.bottomFixed {
+    position: fixed;
+    bottom: 0px;
+}

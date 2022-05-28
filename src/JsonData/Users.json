@@ -1,0 +1,179 @@
+{
+  "GroupUserList": [
+    {
+      "Open": [
+        {
+          "id": "draggable_1",
+          "Name": "Amirdharshan A",
+          "Company": "Intellectyx Data Science Private Limited"
+        },
+        {
+          "id": "draggable_2",
+          "Name": "Vimal Kumar",
+          "Company": "Sirius Computer Solutions"
+        },
+        {
+          "id": "draggable_3",
+          "Name": "Jayakrishnan Duraisamy",
+          "Company": "Labeka IT Solutions"
+        },
+        {
+          "id": "draggable_4",
+          "Name": "Affan Ahmer",
+          "Company": "Smart Parking"
+        },
+        {
+          "id": "draggable_24",
+          "Name": "Kumar",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_25",
+          "Name": "Vaishnavi",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_26",
+          "Name": "Vishnu",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_27",
+          "Name": "Ram kumar",
+          "Company": "Wipro Technologies"
+        }
+      ]
+    },
+    {
+      "Contacted": [
+        {
+          "id": "draggable_5",
+          "Name": "Akash P",
+          "Company": "Centre"
+        },
+        {
+          "id": "draggable_6",
+          "Name": "Gayathri L",
+          "Company": "Katomaron Private Limited"
+        },
+        {
+          "id": "draggable_7",
+          "Name": "Suresh S",
+          "Company": "Synopsis"
+        },
+        {
+          "id": "draggable_8",
+          "Name": "Arun Prakash A",
+          "Compa,ny": "IIT Madras"
+        },
+        {
+          "id": "draggable_21",
+          "Name": "Chandaran",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_22",
+          "Name": "Sakshi",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_23",
+          "Name": "Senthi",
+          "Company": "Wipro Technologies"
+        }
+      ]
+    },
+    {
+      "Written test": [
+        {
+          "id": "draggable_9",
+          "Name": "Vijay Bhupathi",
+          "Company": "Topclass Entertainment LLP"
+        },
+        {
+          "id": "draggable_10",
+          "Name": "M Janasri",
+          "Company": "TCS"
+        },
+        {
+          "id": "draggable_11",
+          "Name": "Mohammed Mubarak",
+          "Company": "Mongo DB"
+        },
+        {
+          "id": "draggable_12",
+          "Name": "Jithin",
+          "Company": "TCS"
+        }
+      ]
+    },
+    {
+      "Technical round": [
+        {
+          "id": "draggable_13",
+          "Name": "Arun Kumar",
+          "Company": "Vidhya Skill School"
+        },
+        {
+          "id": "draggable_14",
+          "Name": "Midhu Krishna",
+          "Company": "Cognizant"
+        },
+        {
+          "id": "draggable_37",
+          "Name": "Ravi",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_15",
+          "Name": "Gowri Shankar S",
+          "Company": "BM Technovations"
+        }
+      ]
+    },
+    {
+      "Culture fit round": [
+        {
+          "id": "draggable_16",
+          "Name": "Dineshkumar",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_17",
+          "Name": "Pradeep K",
+          "Company": "Cognizant Technolog Solution"
+        },
+        {
+          "id": "draggable_38",
+          "Name": "Hemachandar",
+          "Company": "Paypal"
+        },
+        {
+          "id": "draggable_19",
+          "Name": "Surthi",
+          "Company": "Konnectify"
+        },
+        {
+          "id": "draggable_18",
+          "Name": "Raju",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_29",
+          "Name": "Ramu",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_20",
+          "Name": "Chahal",
+          "Company": "Wipro Technologies"
+        },
+        {
+          "id": "draggable_28",
+          "Name": "Yuvi",
+          "Company": "Wipro Technologies"
+        }
+      ]
+    }
+  ]
+}
